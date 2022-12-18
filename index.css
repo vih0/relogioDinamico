@@ -1,0 +1,18 @@
+*{
+    font-family: 'Signika Negative', sans-serif;
+    color:#d7d7d7;
+}
+body {
+    
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+h2{
+    font-size: 80px;
+}
+h1{
+    font-size: 60px;
+}
