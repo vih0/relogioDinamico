@@ -1,6 +1,7 @@
 *{
     font-family: 'Signika Negative', sans-serif;
-    color:#d7d7d7;
+    box-sizing: border-box;
+    
 }
 body {
     
@@ -9,6 +10,7 @@ body {
     justify-content:center ;
     flex-direction: column;
     background-repeat: no-repeat;
+    
 }
 h2{
     font-size: 80px;
