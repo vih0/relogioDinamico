@@ -3,7 +3,7 @@
     box-sizing: border-box;
     
 }
-body {
+.texto{
     
     display: flex;
     align-items: center;

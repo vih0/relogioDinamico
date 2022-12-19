@@ -49,8 +49,20 @@ function mudaFundo() {
         
     }  
 }
+function mudaCorFonte() {
+    let texto = document.querySelector('.texto')
+    pegarHora()
+    if (pegarHora().getHours() > 6 && pegarHora().getHours()<13 ) {
+        return texto.style.color = "black"
+       
+    } else {
+        return texto.style.color = "#d7d7d7"
+    }
+
+}
 validaçãoMensagem()
 mudaFundo()
+mudaCorFonte()
 setInterval(relogio,1000) ;
 
 
