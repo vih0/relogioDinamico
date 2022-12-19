@@ -40,7 +40,7 @@ function mudaFundo() {
     if (pegarHora().getHours() >=6 && pegarHora().getHours() < 13) {
         return fundo.style.backgroundImage ="url('https://cdn.discordapp.com/attachments/753423475720454297/1054005844037091328/dia.webp')"
     }else if (pegarHora().getHours() >= 13 && pegarHora().getHours()<=18) {
-        return fundo.style.backgroundImage="url('https://media.discordapp.net/attachments/753423475720454297/1054005681365188628/tarde.jpg?width=1005&height=670')"
+        return fundo.style.backgroundImage="url('https://cdn.discordapp.com/attachments/648677060658855955/1054358096450945044/tarde.jpg')"
        
     } else {
         return fundo.style.backgroundImage ="url('https://cdn.discordapp.com/attachments/753423475720454297/1054005681126125678/noite.jpg')"
