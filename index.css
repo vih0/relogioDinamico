@@ -1,20 +1,23 @@
-*{
-    font-family: 'Signika Negative', sans-serif;
-    box-sizing: border-box;
-    
+* {
+  font-family: "Signika Negative", sans-serif;
+  box-sizing: border-box;
 }
-.texto{
-    
-    display: flex;
-    align-items: center;
-    justify-content:center ;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    
+.texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-h2{
-    font-size: 80px;
+h2 {
+  font-size: 80px;
 }
-h1{
-    font-size: 60px;
+h1 {
+  font-size: 60px;
+}
+
+body {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
 }
